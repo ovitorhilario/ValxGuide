@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ValxGuide</string>
+    <string name="valorant_guide">Valorant Guide</string>
+    <string name="return_button">Return Button</string>
+    <string name="agents">Agents</string>
+    <string name="weapons">Weapons</string>
+    <string name="ranks">Ranks</string>
+    <string name="sprays">Sprays</string>
+    <string name="player_cards">Player Cards</string>
+    <string name="maps">Maps</string>
+    <string name="gun_buddies">Gun Buddies</string>
+    <string name="agent_type">Type:</string>
+    <string name="agent_description">Description:</string>
+    <string name="agent_ability_description">Description:</string>
+    <string name="weapon_type">Type:</string>
+    <string name="weapon_description">Description:</string>
+    <string name="weapon_creds">Creds:</string>
+    <string name="weapon_magazine">Magazine:</string>
+    <string name="weapon_wall_penetration">Wall Penetration:</string>
+    <string name="weapon_equip_time">Equip Time:</string>
+    <string name="weapon_reload_time">Reload Time:</string>
+    <string name="weapon_fire_rate">Fire Rate:</string>
+    <string name="weapon_damage">Damage</string>
+    <string name="weapon_damage_body">Body</string>
+    <string name="weapon_damage_head">Head</string>
+    <string name="weapon_damage_leg">Leg</string>
+    <string name="weapon_skins">Skins</string>
+    <string name="try_again_button">Try Again</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/gap_larger"
+    android:layout_marginBottom="@dimen/gap_larger"
+    android:background="@color/bg"
+    android:paddingVertical="@dimen/gap_larger">
+
+    <TextView
+        android:id="@+id/tv_weapon_detail_damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/gap_larger"
+        android:text="Damage"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_size_larger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_column_1_range_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Range"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_weapon_detail_damage" />
+
+    <TextView
+        android:id="@+id/tv_column_1_range_desc_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="range val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_1_range_tittle" />
+
+    <TextView
+        android:id="@+id/tv_column_1_range_desc_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="range val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_1_range_desc_1" />
+
+    <TextView
+        android:id="@+id/tv_column_2_body_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_2"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_1"
+        app:layout_constraintTop_toBottomOf="@id/tv_weapon_detail_damage" />
+
+    <TextView
+        android:id="@+id/tv_column_2_body_desc_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Body val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_2"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_1"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_2_body_tittle" />
+
+    <TextView
+        android:id="@+id/tv_column_2_body_desc_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Body val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_2"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_1"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_2_body_desc_1" />
+
+    <TextView
+        android:id="@+id/tv_column_3_head_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_3"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_2"
+        app:layout_constraintTop_toBottomOf="@id/tv_weapon_detail_damage" />
+
+    <TextView
+        android:id="@+id/tv_column_3_head_desc_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Head val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_3"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_2"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_3_head_tittle" />
+
+    <TextView
+        android:id="@+id/tv_column_3_head_desc_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Head val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="@id/gl_weapon_detail_3"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_2"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_3_head_desc_1" />
+
+    <TextView
+        android:id="@+id/tv_column_4_leg_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leg"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_3"
+        app:layout_constraintTop_toBottomOf="@id/tv_weapon_detail_damage" />
+
+    <TextView
+        android:id="@+id/tv_column_4_leg_desc_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Leg val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_3"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_4_leg_tittle" />
+
+    <TextView
+        android:id="@+id/tv_column_4_leg_desc_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_small"
+        android:text="Leg val"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_weapon_detail_3"
+        app:layout_constraintTop_toBottomOf="@id/tv_column_4_leg_desc_1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_weapon_detail_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_weapon_detail_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_weapon_detail_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

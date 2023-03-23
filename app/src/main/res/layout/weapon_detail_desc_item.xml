@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/gap_larger"
+    android:layout_marginHorizontal="@dimen/gap_larger"
+    android:background="@color/bg">
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_creds"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_creds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_type" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_magazine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_magazine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_creds" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_wall_penetration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_wall_penetration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_magazine" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_equip_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_equip_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_wall_penetration" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_reload_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_reload_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_equip_time" />
+
+    <com.example.valxguide.utils.custom.GuideDescView
+        android:id="@+id/gdv_weapon_fire_rate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_larger"
+        app:contentText="@string/weapon_description"
+        app:labelText="@string/weapon_fire_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gdv_weapon_reload_time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
